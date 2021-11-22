@@ -3,7 +3,7 @@ header img{
     border-radius: 15%;
     float: left;
     margin-left: 6em;
-    border: 2px solid black; 
+    border: 2px solid rgb(1, 39, 56); 
 }
 #encabezado{
     vertical-align: middle;    
@@ -15,6 +15,10 @@ header img{
 header{
     padding-top: 1em;
     border-bottom: solid 1px rgb(0, 0, 48);
+    border-top: 1px solid rgb(0, 65, 139);
+    border-left: 1px solid rgb(0, 65, 139);
+    border-right: 1px solid rgb(0, 65, 139);
+    font-family: 'Noto Serif', serif;
     padding-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
@@ -35,7 +39,7 @@ header{
 }
 #estudio{
     width: 50%;
-
+    font-family: 'Noto Serif', serif;
     color: #E7E7DE;
     background-color: #008891;
     float:left;
@@ -43,6 +47,7 @@ header{
 body{
     align-items: center;
     background-color: #aaaaa7;
+    
 }
 #informal {
     background-color: #008891;
@@ -55,6 +60,7 @@ body{
     float: right;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    font-family: 'Noto Serif', serif;
 }
 #all{
     width: 75%;
@@ -62,6 +68,9 @@ body{
     margin-left: 12.5%;
     margin-right: auto;
     flex-wrap: wrap;
+    border-right: 1px solid rgb(0, 65, 139);
+    border-left: 1px solid rgb(0, 65, 139);
+
 }
 footer{
     padding-top: 1em;
@@ -79,4 +88,11 @@ footer{
     border-top: 1px solid rgb(38, 38, 90);
     text-align: center;
     border-radius: 2px;
+    border-right: 1px solid rgb(0, 65, 139);
+    border-left: 1px solid rgb(0, 65, 139);
+    border-bottom: 1px solid rgb(0, 65, 139);
+    font-family: 'Noto Serif', serif;
+}
+.one{
+    color:black;
 }
