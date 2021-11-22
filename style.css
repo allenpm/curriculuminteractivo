@@ -1,0 +1,27 @@
+header img{
+    width: 10em;
+    border-radius: 15%;
+    float: left;
+    margin-left: 6em;
+    border: 2px solid black; 
+}
+#encabezado{
+    vertical-align: middle;    
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 3em;
+    
+}
+header{
+    padding-top: 1em;
+    border-bottom: solid 1px blue;
+    padding-bottom: 1em;
+    background-color: #00587A;
+    color: #E7E7DE;
+    justify-content: start;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+#univeritario {
+    background-color: #008891;
+}
